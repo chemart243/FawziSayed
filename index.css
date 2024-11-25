@@ -1,0 +1,126 @@
+ul{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    flex-direction: row;;
+}
+
+li:nth-child(1){
+    flex-grow: 5;
+}
+
+li:nth-child(){
+    background-color: #FD6F00;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    color: white;
+    border: 0px solid white;
+    width: 80px;
+}
+
+.block_testimonal{
+    background-color:#F8F8F8;
+    padding: 30px;
+}
+
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.hero-section{
+    background-color: white;
+    padding: 20px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_social_link{
+    text-align: center;
+}
+
+h3{
+    color: #FD6F00;
+    
+}
+
+button{
+    background-color: #FD6F00;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 0px solid white;
+    width: 100px;
+}
+
+article{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+h2{
+    font-size: 50px;
+}
+
+.main_section_about_me_level_skill_hard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main_service_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.UI_UX{
+    background-color:#F8F8F8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.block_image_project{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.block_testimonal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.block_image_project img{
+    width: 200px;
+}
+
+.group_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form{
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
